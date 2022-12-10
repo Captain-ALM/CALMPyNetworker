@@ -1,4 +1,4 @@
-#BSD 3-Clause, (C) Alfred Manville 2022
+#BSD 3-Clause, (C) Captain ALM 2022
 import pickle
 import json
 import socket

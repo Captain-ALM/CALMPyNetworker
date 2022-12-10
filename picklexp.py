@@ -1,4 +1,4 @@
-#BSD 3-Clause, (C) Alfred Manville 2022
+#BSD 3-Clause, (C) Captain ALM 2022
 #Be RESPONSIBLE when using this!
 import networker as net
 import pickle

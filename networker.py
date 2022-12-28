@@ -236,4 +236,9 @@ class Connection:
             self.threads[str(ac)].start()
         except:
             print("A connection error has occured for: " + ac)
+
+    def disconnect(self, addr):
+        if self.actives[addr]:
+            self.actives[addr] = False
+            self.sockets[addr].close()
         

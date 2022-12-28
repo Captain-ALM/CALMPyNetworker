@@ -93,8 +93,7 @@ def main():
                         continue
                     elif csplt[0] == "disconnect":
                         print("Attempting Disconnection from: " + csplt[1])
-                        conn.actives[csplt[1]] = False
-                        conn.sockets[csplt[1]].close()
+                        conn.disconnect(csplt[1])
                         continue
                     if len(csplt) > 2:
                         if csplt[0] == "message":
